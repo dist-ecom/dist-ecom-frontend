@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { Button } from "../ui/button";
 import { User, Search, Menu, ShoppingCart } from "lucide-react";
@@ -43,12 +45,12 @@ export function Navbar() {
             <User className="h-5 w-5" />
             <span className="sr-only">Account</span>
           </Button>
-          <Button variant="ghost" size="icon">
+          <Link href="/cart">
             <ShoppingCart className="h-5 w-5" />
             <span className="sr-only">Cart</span>
-          </Button>
+          </Link>
         </div>
       </div>
     </header>
   );
-} 
+}

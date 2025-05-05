@@ -28,7 +28,7 @@ export function Footer() {
           <div>
             <h4 className="font-bold text-white mb-4">Shop</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/products" className="hover:text-white">All Products</Link></li>
+              <li><Link href="/routes/products" className="hover:text-white">All Products</Link></li>
               <li><Link href="/categories/men" className="hover:text-white">Men</Link></li>
               <li><Link href="/categories/women" className="hover:text-white">Women</Link></li>
               <li><Link href="/categories/accessories" className="hover:text-white">Accessories</Link></li>
@@ -69,4 +69,4 @@ export function Footer() {
       </div>
     </footer>
   );
-} 
+}

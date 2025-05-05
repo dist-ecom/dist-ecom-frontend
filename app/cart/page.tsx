@@ -1,3 +1,5 @@
+"use client";
+
 import { Navbar } from "../../components/custom/Navbar";
 import { Footer } from "../../components/custom/Footer";
 import { Button } from "@/components/ui/button";
@@ -90,6 +92,10 @@ export default function CartPage() {
                             <Input
                               type="number"
                               value={item.quantity}
+                              onChange={(e) => {
+                                // Handle quantity change logic here
+                                console.log(`Quantity for item ${item.id} changed to`, e.target.value);
+                              }}
                               className="h-8 w-12 mx-2 text-center"
                               min="1"
                             />
@@ -167,4 +173,4 @@ export default function CartPage() {
       <Footer />
     </div>
   );
-} 
+}
