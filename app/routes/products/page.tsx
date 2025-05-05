@@ -1,5 +1,7 @@
-import { Navbar } from "../../components/Navbar";
-import { Footer } from "../../components/Footer";
+"use client";
+
+import { Navbar } from "@/components/custom/Navbar";
+import { Footer } from "@/components/custom/Footer";
 import { Button } from "@/components/ui/button";
 import {
   Card,
