@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Button } from "../../components/ui/button";
-import { Card, CardContent } from "../../components/ui/card";
+import { Button } from "../ui/button";
+import { Card, CardContent } from "../ui/card";
 import { Globe, Truck, CreditCard, Languages, DollarSign, MapPin, ShieldCheck, HelpCircle } from "lucide-react";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../../components/ui/select";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select";
 import { Switch } from "../../components/ui/switch";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "../../components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "../ui/tabs";
 
 const currencies = [
   { code: "USD", symbol: "$", name: "US Dollar" },

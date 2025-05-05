@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "../../components/ui/button";
-import { Card, CardContent, CardFooter } from "../../components/ui/card";
-import { Badge } from "../../components/ui/badge";
+import { Button } from "../ui/button";
+import { Card, CardContent, CardFooter } from "../ui/card";
+import { Badge } from "../ui/badge";
 import { StarIcon } from "lucide-react";
 
 interface ProductCardProps {

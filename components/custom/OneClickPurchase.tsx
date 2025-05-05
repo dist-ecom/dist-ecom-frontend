@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "../../components/ui/button";
+import { Button } from "../ui/button";
 import {
   Dialog,
   DialogContent,
@@ -8,7 +8,7 @@ import {
   DialogTrigger,
   DialogFooter,
 } from "../../components/ui/dialog";
-import { Input } from "../../components/ui/input";
+import { Input } from "../ui/input";
 import { Label } from "../../components/ui/label";
 import { Checkbox } from "../../components/ui/checkbox";
 import {

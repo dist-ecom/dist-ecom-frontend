@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Button } from "../../components/ui/button";
-import { Tabs, TabsList, TabsTrigger } from "../../components/ui/tabs";
+import { Button } from "../ui/button";
+import { Tabs, TabsList, TabsTrigger } from "../ui/tabs";
 
 export function MarketplaceHeader() {
   return (

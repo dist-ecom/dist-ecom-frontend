@@ -1,13 +1,13 @@
 import { useState } from "react";
-import { Button } from "../../components/ui/button";
-import { Card, CardContent, CardFooter } from "../../components/ui/card";
+import { Button } from "../ui/button";
+import { Card, CardContent, CardFooter } from "../ui/card";
 import { 
   Users, MessageSquare, Heart, Share2, 
   TrendingUp, ShoppingBag, Video, UserPlus 
 } from "lucide-react";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "../../components/ui/tabs";
-import { Badge } from "../../components/ui/badge";
-import { Avatar, AvatarFallback, AvatarImage } from "../../components/ui/avatar";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "../ui/tabs";
+import { Badge } from "../ui/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
 export function SocialShopping() {
   const [activeTab, setActiveTab] = useState("trending");

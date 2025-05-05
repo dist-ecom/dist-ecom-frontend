@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Button } from "../../components/ui/button";
+import { Button } from "../ui/button";
 import { User, Search, Menu, ShoppingCart } from "lucide-react";
 
 export function Navbar() {

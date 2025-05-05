@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Separator } from "../../components/ui/separator";
+import { Separator } from "../ui/separator";
 import { Instagram, Facebook, Twitter } from "lucide-react";
 
 export function Footer() {

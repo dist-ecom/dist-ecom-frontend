@@ -1,10 +1,10 @@
-import { Navbar } from "./components/Navbar";
-import { HeroBanner } from "./components/HeroBanner";
-import { CategoryGrid } from "./components/CategoryGrid";
-import { FeaturedProducts } from "./components/FeaturedProducts";
-import { MarketplacePromo } from "./components/MarketplacePromo";
-import { Newsletter } from "./components/Newsletter";
-import { Footer } from "./components/Footer";
+import { Navbar } from "../components/custom/Navbar";
+import { HeroBanner } from "../components/custom/HeroBanner";
+import { CategoryGrid } from "../components/custom/CategoryGrid";
+import { FeaturedProducts } from "../components/custom/FeaturedProducts";
+import { MarketplacePromo } from "../components/custom/MarketplacePromo";
+import { Newsletter } from "../components/custom/Newsletter";
+import { Footer } from "../components/custom/Footer";
 
 export default function Home() {
   return (

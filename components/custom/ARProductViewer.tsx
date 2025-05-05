@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Button } from "../../components/ui/button";
-import { Card, CardContent } from "../../components/ui/card";
-import { Badge } from "../../components/ui/badge";
+import { Button } from "../ui/button";
+import { Card, CardContent } from "../ui/card";
+import { Badge } from "../ui/badge";
 import { Cube, ScanFace, Smartphone, RotateCcw, ZoomIn, Move3d, ViewIcon } from "lucide-react";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "../../components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "../ui/tabs";
 
 export function ARProductViewer() {
   const [rotateEnabled, setRotateEnabled] = useState(false);

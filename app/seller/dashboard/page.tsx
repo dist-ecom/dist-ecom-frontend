@@ -1,6 +1,6 @@
-import { Navbar } from "../../components/Navbar";
-import { SellerDashboard } from "../../components/SellerDashboard";
-import { Footer } from "../../components/Footer";
+import { Navbar } from "../../../components/custom/Navbar";
+import { SellerDashboard } from "../../../components/custom/SellerDashboard";
+import { Footer } from "../../../components/custom/Footer";
 
 export default function SellerDashboardPage() {
   return (
