@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "../../components/ui/button";
-import { ShoppingCart, User, Search, Menu } from "lucide-react";
+import { User, Search, Menu, ShoppingCart } from "lucide-react";
 
 export function Navbar() {
   return (
@@ -15,20 +15,14 @@ export function Navbar() {
             DIST
           </Link>
           <nav className="hidden md:flex items-center gap-6">
-            <Link href="/products" className="text-sm font-medium hover:underline underline-offset-4">
-              Products
-            </Link>
-            <Link href="/collections" className="text-sm font-medium hover:underline underline-offset-4">
-              Collections
-            </Link>
-            <Link href="/new-arrivals" className="text-sm font-medium hover:underline underline-offset-4">
-              New Arrivals
+            <Link href="/" className="text-sm font-medium hover:underline underline-offset-4">
+              Home
             </Link>
             <Link href="/marketplace" className="text-sm font-medium hover:underline underline-offset-4">
-              Marketplace
+              Products
             </Link>
-            <Link href="/sale" className="text-sm font-medium hover:underline underline-offset-4">
-              Sale
+            <Link href="/seller/dashboard" className="text-sm font-medium hover:underline underline-offset-4">
+              Seller Dashboard
             </Link>
           </nav>
         </div>
