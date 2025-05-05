@@ -19,7 +19,7 @@ export function Navbar() {
               Home
             </Link>
             <Link href="/marketplace" className="text-sm font-medium hover:underline underline-offset-4">
-              Products
+              Marketplace
             </Link>
             <Link href="/seller/dashboard" className="text-sm font-medium hover:underline underline-offset-4">
               Seller Dashboard
